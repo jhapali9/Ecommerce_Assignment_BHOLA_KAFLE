@@ -41,6 +41,30 @@
 	from django.db import models
 
   
+# Pushing the project to github
+## Creating a repository
+- Login to github and create repository named as Ecommerce_Assignment_BHOLA_KAFLE
+## Adding remote repo 
+```
+git remote add origin https://github.com/jhapali9/Ecommerce_Assignment_BHOLA_KAFLE.git
+```
+## Adding files to staging area
+```
+	git add .
+```
+## Commiting the changed file
+```
+	git commit -m "First Commit for Lab Exam"
+```
+## Pushing the file to github
+```
+	git push 
+```
+## Creating a readme.md file and push changes
+- Create a file readme.md inside project root folder
+- add this file in stating area
+- commit the change
+- push to github
 
 ## Creating LabExam Model
 ### Inside lab_exam/models.py
